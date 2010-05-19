@@ -61,7 +61,7 @@ AsteriskManager Events
 AsteriskManager Functions
 -------------------------
 
-* **(constructor)**([Object]) - _(AsteriskManager)_ - Creates and returns a new instance of AsteriskManager using the specified configuration object. At least the 'user' and 'password' config properties must be specified. Valid properties of the passed in object are:
+* **(constructor)**([Object]) - _AsteriskManager_ - Creates and returns a new instance of AsteriskManager using the specified configuration object. At least the 'user' and 'password' config properties must be specified. Valid properties of the passed in object are:
     * **user** - A String representing the username to log into the asterisk server with.
     * **password** - A String representing the password associated with the user to log into the asterisk server with.
     * **host** - A String representing the hostname or IP address of the asterisk server. **Default:** "localhost"
