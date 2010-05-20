@@ -23,7 +23,7 @@ node-asterisk exposes only one class: **AsteriskManager**.
 * _Participant_ is an object currently containing the following properties:
     * **name** - A String containing the name provided by Caller ID, if it's not available/provided then it's set to "&lt;unknown&gt;". **Note:** Caller ID _name_ information is only available once a call is connected.
     * **number** - An Integer representing a 10-digit (PSTN) landline number or an asterisk extension.
-    * **with** - An Integer representing a unique number identifying another Participant they are associated with. **Note:** this property is not set until the _dialing_ event occurs.
+    * **with** - A String representing a unique number identifying another Participant they are associated with. **Note:** this property is not set until the _dialing_ event occurs.
 
 
 AsteriskManager Events
